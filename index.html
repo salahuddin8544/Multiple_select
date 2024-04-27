@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="custom-select show-select-items">
+            <div class="select-box">
+                <input type="text" class="tags_input" hidden>
+                <div class="selected-options">
+                </div>
+                <div class="arrow">
+                    <i class="fa fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="options">
+                <div class="option-search-tags">
+                    <input type="text" placeholder="search tags" class="search-tags">
+                    <button type="button" class="clear"><i class="fa fa-close"></i></button>
+                </div>
+                <div class="option" data-value="Black">Black</div>
+                <div class="option" data-value="Green">Green</div>
+                <div class="option" data-value="Yellow">Yellow</div>
+                <div class="option" data-value="Green">Green</div>
+                <div class="not-result-message" style="display: none;">No result found</div>
+            </div>
+            <span class="tags_error_message error"></span>
+        </div>
+        <input type="button" value="Submit" class="btn-submit">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
